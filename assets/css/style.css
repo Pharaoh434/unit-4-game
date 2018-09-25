@@ -1,1 +1,32 @@
 
+
+.crystals{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.crystal {
+    width: 200px;
+    height:200px;
+    border:1px solid red;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px;
+    transition: box-shadow 2s;
+
+}
+
+.crystal:hover {
+    box-shadow: 15px 15px 15px;
+    cursor: pointer;
+    transition: box-shadow 2s
+}
+
+img {
+    width:50px;
+}
+
+previous {
+    text-decoration-color: white;
+}
